@@ -1,0 +1,9 @@
+{
+  "$schema": "http://json.schemastore.org/proxies",
+  "proxies": [
+    {
+      "route": "/api/myfunction",
+      "backendUri": "http://localhost:7071/api/HttpTrigger"
+    }
+  ]
+}
